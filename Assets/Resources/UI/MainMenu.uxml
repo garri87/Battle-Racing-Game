@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Style.uss?fileID=7433441132597879392&amp;guid=73825441d4180f346b8dc27bed002fea&amp;type=3#Style" />
+    <ui:VisualElement name="Background" class="Root">
+        <ui:VisualElement name="MainMenu" class="MainMenu" style="display: none;">
+            <ui:Button text="Iniciar Juego 1 jugador" />
+            <ui:Button text="Iniciar Juego Multijugador" />
+            <ui:Button text="Opciones" />
+            <ui:Button text="Salir del juego" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MultiplayerMenu" class="MultiplayerMenu" style="background-color: rgba(96, 90, 90, 0);">
+            <ui:Button text="Crear partida" name="createGameButton" />
+            <ui:Button text="Unirse a una partida" name="joinGameButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

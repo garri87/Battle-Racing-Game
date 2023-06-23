@@ -1,0 +1,366 @@
+.Root {
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.MainMenu {
+    background-color: rgb(34, 34, 34);
+    width: 50%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+    display: flex;
+}
+
+.MainMenu Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: auto;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    height: auto;
+    display: flex;
+}
+
+.MultiplayerMenu {
+    background-color: rgb(34, 34, 34);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+    display: flex;
+}
+
+.MultiplayerMenu Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.MultiplayerLobby {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.MultiplayerLobby Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.MultiplayerLobby PlayerListPanel {
+    background-color: rgb(0, 255, 0);
+}
+
+.MultiplayerLobby PlayerListPanel PlayerAvatar {
+    width: 50px;
+    height: 50px;
+}
+
+.PauseMenu {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.InGameInfo {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.LoadingScreen {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.GameOverScreen {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.OptionsMenu {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-style: normal;
+}
+
+.OptionsMenu Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.OptionsMenu TabGroup {
+    background-color: rgb(0, 0, 255);
+}
+
+.OptionsMenu Slider {
+    background-color: rgb(0, 255, 255);
+    flex-grow: 1;
+    width: 50%;
+    height: 50%;
+}
+
+.OptionsMenu TabGroup Tab {
+    background-color: rgb(255, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.OptionsMenu DropdownField {
+    width: 50%;
+    height: 10%;
+}
+
+.PauseMenu Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.InGameInfo Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.LoadingScreen Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.GameOverScreen Button {
+    background-color: rgb(17, 14, 14);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    width: 90%;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=763ccae18eb9e4f4eaa33dc7796e64c3&type=3#NotInter-Regular');
+    -unity-font-definition: initial;
+    border-left-color: rgba(0, 0, 0, 0.37);
+    border-right-color: rgba(0, 0, 0, 0.37);
+    border-top-color: rgba(0, 0, 0, 0.37);
+    border-bottom-color: rgba(0, 0, 0, 0.37);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.ControlsTab KeyBindingPanel {
+    background-color: rgb(255, 165, 0);
+}
+
+.InGameInfo ProgressBar {
+    background-color: rgb(128, 0, 128);
+}
+
+.InGameInfo Slider {
+    background-color: rgb(0, 128, 0);
+}
+
+.InGameInfo WeaponInfo {
+    background-color: rgb(255, 20, 147);
+}
+
+.LoadingScreen Label {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.GameOverScreen {
+    background-color: rgb(128, 0, 0);
+}
+
+.GameOverScreen Label {
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+}
+
+.GameOverScreen Button {
+    background-color: rgb(255, 140, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
